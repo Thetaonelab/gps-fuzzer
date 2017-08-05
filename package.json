@@ -1,0 +1,24 @@
+{
+  "name": "gps-fuzzer",
+  "version": "1.0.0",
+  "description": "This lib can generate and publish fake gps locations along a polyline.",
+  "repository": "https://github.com/Eyezon/gps-fuzzer.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server.js"
+  },
+  "author": "Tamal Sen",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "mqtt": "^2.5.2"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.0"
+  }
+}
