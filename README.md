@@ -1,3 +1,7 @@
+# gps-fuzzer
+
+<img src="logo.png" width="150px" alt="logo">
+
 *gps-fuzzer* interpolates LatLong points along a polyline and publishes the points data to a given mqtt topic. There are REST APIs available for 
 
 * starting a fuzzer on a topic
